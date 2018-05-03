@@ -2,7 +2,6 @@ var books = []
 
 function getBooks() {
     var imgs = document.getElementsByClassName("img")
-    console.log(imgs);
     var titles = document.getElementsByClassName("title")
     var authors = document.getElementsByClassName("author")
     var dates = document.getElementsByClassName("date")
@@ -130,4 +129,3 @@ select.onchange = function () {
     }
 }
 getBooks();
-console.log(books);
